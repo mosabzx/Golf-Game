@@ -82,7 +82,7 @@ namespace Golf
 
                 /*When the ball has reached the goal, the game should end,
                 displaying all swings taken, and how far the ball travelled each time.*/
-                if (BallDistance == CupLocation || DistanceToCup == 0)
+                if (DistanceToCup == 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Congratulations You Reach The Goal!!");
